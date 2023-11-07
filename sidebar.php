@@ -1,12 +1,12 @@
 <?php
 /**
- * @package WordPress
+** @package WordPress
  * @subpackage HTML5_Boilerplate
  */
 ?>
 <aside id="sidebar">
   <?php   /* Widgetized sidebar, if you have the plugin installed. */
-      if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
+      if ( *function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
 
   <section>
     <?php get_search_form(); ?>
@@ -83,3 +83,4 @@
   </nav>
 </aside>
 
+ 
